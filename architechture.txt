@@ -1,0 +1,24 @@
+┌─────────────────────────────┐
+│          UI / View          │
+│  Board, pieces, clicks, UI  │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│       Game Controller       │
+│  "What happens when I move" │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│       Chess Rules           │
+│ legal moves, check, mate,   │
+│ castling, en passant, etc.  │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│       Game State            │
+│ board, turn, castling rights│
+│ en-passant state, history   │
+└─────────────────────────────┘
