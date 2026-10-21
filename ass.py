@@ -9,3 +9,13 @@ for i in range(precision):
 
 pie = 4 * pie_sum
 print(pie)
+
+my_list = ['a', 'b', 'c']
+new_list = my_list.copy()
+even_newer_list = my_list
+
+my_list.pop(2)
+
+print(my_list)
+print(new_list)
+print(even_newer_list)
